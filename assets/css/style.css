@@ -1,0 +1,90 @@
+/*  General Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;  
+    background:rgb(205, 204, 209);
+    color:#333 ;
+    min-height: 100vh;
+    display: flex ;
+       flex-direction: column;    
+}
+header{
+    background-color: #399f7a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;    
+
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    padding:10px;
+    display:block
+}
+main{
+    max-width:1200px;
+    margin: 20px auto;
+    padding:20px;
+    background:rgb(205, 204, 209);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+footer{
+    text-align: center;
+    padding:10px;
+    background-color: #399f7a;
+    color:white;
+    bottom:0;
+    width:100%;
+    margin-top: auto;
+}
+#resume-header{
+
+    text-align: center;
+}
+#cover-letter-h2{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-me-h2{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+#credentials-h2{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#home img{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#recommendation img{
+    width: 50%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
